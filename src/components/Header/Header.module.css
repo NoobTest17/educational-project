@@ -1,0 +1,45 @@
+.myHeader {
+    /*width: 1330px;*/
+    display: flex;
+    color: white;
+    height: 217px;
+    margin-left: 119px;
+}
+
+.navbarWrap {
+    width: 100%;
+    display: flex;
+    /*width: 1571px;*/
+    border-bottom: 3px solid white;
+
+}
+
+.menu {
+    width: 1100px;
+    height: 140px;
+    margin-left: 16px;
+
+    /*background-color: #8c8c8c;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textLogo {
+    font-size: 24px;
+    margin-right: 104px;
+}
+
+.navbar {
+    width: 714px;
+    /*background-color: gold;*/
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 20px;
+    align-items: center;
+}
+

@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    width: 1920px;
+    background: rgba(36, 16, 2, 0.88);
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
