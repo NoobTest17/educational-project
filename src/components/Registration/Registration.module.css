@@ -1,0 +1,19 @@
+.registr {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 649px;
+    color: white;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 67px;
+}
+
+.btn {
+    margin-top: 37px;
+    margin-left: 36px;
+    width: 291px;
+    height: 50px;
+}

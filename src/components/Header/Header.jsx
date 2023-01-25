@@ -2,15 +2,16 @@ import React from 'react';
 import classes from "./Header.module.css";
 import img from "./../../img/headerLogo.svg"
 
+// Добавить шрифты и решить вопрос с <li><a>Организаторы<br />фестиваля</a></li>
 const Header = () => {
   return (
     <div className={classes.myHeader}>
       <div>
         <img src={img} alt=""/>
       </div>
-      <div className={classes.menu}>
-        <div className={classes.navbarWrap}>
-          <div className={classes.textLogo}>
+      <div className={classes.menuWrap}>
+        <div className={classes.menu}>
+          <div>
             Промышленный<br />дизайн
           </div>
           <div className={classes.navbar}>
@@ -18,13 +19,12 @@ const Header = () => {
               <ul>
                 <li><a>О проекте</a></li>
                 <li><a>Выставки</a></li>
-                <li><a>Организаторы фестиваля</a></li>
+                <li><a>Организаторы<br />фестиваля</a></li>
                 <li><a>Контакты</a></li>
               </ul>
             </nav>
           </div>
         </div>
-
       </div>
     </div>
   );
