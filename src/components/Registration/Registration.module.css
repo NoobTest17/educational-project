@@ -1,4 +1,4 @@
-.registr {
+.registration {
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -11,9 +11,4 @@
     margin-bottom: 67px;
 }
 
-.btn {
-    margin-top: 37px;
-    margin-left: 36px;
-    width: 291px;
-    height: 50px;
-}
+
