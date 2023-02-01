@@ -1,32 +1,25 @@
 import React from 'react';
-import classes from "./Header.module.css";
-import img from "./../../img/headerLogo.svg"
+import classes from './Header.module.css';
+import img from '../../img/headerLogo.svg';
 
-// Добавить шрифты и решить вопрос с <li><a>Организаторы<br />фестиваля</a></li>
 const Header = () => {
   return (
-    <div className={classes.myHeader}>
-      <div>
+    <header className={classes.header}>
+      <div className={classes.header__img}>
         <img src={img} alt=""/>
       </div>
-      <div className={classes.menuWrap}>
-        <div className={classes.menu}>
-          <div>
-            Промышленный<br />дизайн
-          </div>
-          <div className={classes.navbar}>
-            <nav>
-              <ul>
-                <li><a>О проекте</a></li>
-                <li><a>Выставки</a></li>
-                <li><a>Организаторы<br />фестиваля</a></li>
-                <li><a>Контакты</a></li>
-              </ul>
-            </nav>
-          </div>
+      <div className={classes.header__menuWrap}>
+        <div className={classes.header__menu}>
+          <div className={classes.header__menu__title}>Промышленный<br/>дизайн</div>
+          <ul className={classes.header__menu__list}>
+            <li>О проекте</li>
+            <li>Выставки</li>
+            <li>Организаторы<br/>фестиваля</li>
+            <li>Контакты</li>
+          </ul>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

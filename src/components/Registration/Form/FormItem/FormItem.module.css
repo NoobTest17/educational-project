@@ -1,0 +1,11 @@
+.itemFrom {
+    display: flex;
+    max-width: 650px;
+    align-items: center;
+    padding-top: 22px;
+}
+
+.itemFrom__title {
+    min-width: 205px;
+    color: white;
+}

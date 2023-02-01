@@ -1,13 +1,14 @@
 import './App.css'
-import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Registration from "./components/Registration/Registration";
+import InformationForVisitors from "./components/InformationForVisitors/InformationForVisitors";
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Registration/>
+      {/*<Registration/>*/}
+      <InformationForVisitors/>
     </div>
   );
 }
