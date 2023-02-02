@@ -1,0 +1,36 @@
+.wrapper {
+    width: 100%;
+}
+
+.linkReg {
+    max-width: 1126px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    color: white;
+    height: 429px;
+}
+
+.linkReg__content {
+    display: flex;
+    flex-direction: column;
+    height: 321px;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.linkReg__content__btn {
+    max-width: 287px;
+    height: 82px;
+    margin-left: 45px;
+}
+
+.linkReg img {
+    max-width: 233px;
+    margin-bottom: 90px;
+}

@@ -1,17 +1,18 @@
 .IFVWrap{
     width: 100%;
     border-bottom: 4.5px solid #260901;
+    box-shadow: 0 4px 4px rgba(100, 60, 25, 0.65);
 }
 
 .IFV {
     max-width: 1091px;
-    height: 595px;
+    height: 650px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     color: white;
-
+    font-family: 'Inter';
     /*background-color: #726129;*/
 }
 
@@ -21,7 +22,7 @@
 
 .IFV__information {
     max-width: 719px;
-
+    margin-top: 49px;
     /*background-color: #544540;*/
 }
 

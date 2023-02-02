@@ -1,0 +1,45 @@
+.wrapper {
+    width: 100%;
+}
+
+.TUC {
+    max-width: 1167px;
+    height: 922px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    background-color: #3f3b13;
+}
+
+.TUC img {
+    max-width: 295px;
+    margin-top: 92px;
+}
+
+.TUC__content h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 162px;
+    margin-left: 40px;
+    margin-top: 59px;
+}
+
+.TUC__content p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 53px;
+}
+
+.TUC__content__btn {
+    max-width: 287px;
+    height: 94px;
+    margin-top: 90px;
+    margin-left: 20px;
+}

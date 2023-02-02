@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from "./SectionInfo.module.css";
-import lampWithGear from "../../../img/lampWithGear.svg";
+import lampWithGear from "../../../accets/lampWithGear.svg";
 
 const SectionInfo = () => {
   return (

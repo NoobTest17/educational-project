@@ -1,0 +1,45 @@
+.wrapper {
+    width: 100%;
+    height: 735px;
+    border-bottom: 4.5px solid #260901;
+    box-shadow: 0 4px 4px rgba(100, 60, 25, 0.65);
+}
+
+.IID {
+    max-width: 1130px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.IID img {
+    margin-bottom: 350px;
+}
+
+.IID__content {
+    max-width: 789px;
+}
+
+.IID__content h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 59px;
+    line-height: 73px;
+    margin-bottom: 58px;
+}
+
+.IID__content p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 65px;
+}
+
+.IID__content__btn {
+    max-width: 287px;
+    height: 94px;
+}
