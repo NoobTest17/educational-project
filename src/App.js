@@ -3,6 +3,8 @@ import Header from "./components/Header/Header";
 import Registration from "./components/Registration/Registration";
 import InformationForVisitors from "./components/InformationForVisitors/InformationForVisitors";
 import IntroductionIndustrialDesign from "./components/IntroductionIndustrialDesign/IntroductionIndustrialDesign";
+import InformationForFestivalParticipants
+  from "./components/InformationForFestivalParticipants/InformationForFestivalParticipants";
 
 function App() {
   return (
@@ -10,7 +12,8 @@ function App() {
       <Header/>
       {/*<Registration/>*/}
       {/*<InformationForVisitors/>*/}
-      <IntroductionIndustrialDesign/>
+      {/*<IntroductionIndustrialDesign/>*/}
+      <InformationForFestivalParticipants/>
     </div>
   );
 }

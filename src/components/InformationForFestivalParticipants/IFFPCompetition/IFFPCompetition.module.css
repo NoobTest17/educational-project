@@ -1,0 +1,51 @@
+.wrapper {
+    width: 100%;
+    height: 718px;
+    border-bottom: 4.5px solid #260901;
+    box-shadow: 0 4px 4px rgba(100, 60, 25, 0.65);
+}
+
+.IFFPC {
+    max-width: 1226px;
+    margin: 70px auto 0 auto;
+    color: white;
+}
+
+.IFFPC__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin-left: 36px;
+}
+
+.IFFPC__content {
+    max-width: 1226px;
+    height: 577px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.IFFPC__content__left {
+    max-width: 313px;
+    height: 468px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.IFFPC__content__left__btn {
+    max-width: 288px;
+    height: 70px;
+    margin-left: 25px;
+}
+
+.IFFPC__content__left img {
+    max-width: 157px;
+}
+
+.IFFPC__content__list {
+    margin-top: 45px;
+}
+

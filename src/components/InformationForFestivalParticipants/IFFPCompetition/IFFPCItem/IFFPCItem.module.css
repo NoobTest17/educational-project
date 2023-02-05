@@ -1,0 +1,15 @@
+.item {
+    color: white;
+    display: flex;
+    width: 826px;
+    margin-top: 36px;
+    align-items: center;
+}
+.item p{
+    margin-left: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
