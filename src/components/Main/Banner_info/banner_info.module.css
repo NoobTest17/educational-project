@@ -1,46 +1,37 @@
-.banner_info{
+.banner_info {
     font-family: 'Inter';
     font-style: normal;
-display: grid;
-grid-template-columns: 2fr 4fr;
-/*grid-template-areas: 
-"h h"
-" n n n n";*/
-background-color: #241002;
-opacity: .88;
-
-border-bottom: 4.5px solid #260901;
-box-shadow:  4px 4px  #643C19;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    opacity: .88;
+    border-bottom: 4.5px solid #260901;
+    box-shadow: 4px 4px #643C19;
 }
 
-.img{
-  /*grid-area: h;*/
-  margin-right: 401px;
-  margin-top: 219px;
-  margin-bottom: auto;
-  margin: 0 auto; 
-  width: 253px;
-  height: 267px;}  
+.img {
+    margin-right: 401px;
+    margin-top: 219px;
+    margin-bottom: auto;
+    margin: 0 auto;
+    width: 253px;
+    height: 267px;
+}
 
-  .info{
+.info {
     /*grid-area: n;*/
     display: flex;
     flex-direction: column;
     gap: 60px;
     margin-bottom: 120px;
-    /*margin: 0 ;*/
 
 }
-.nazvanie{
-    /*margin-left: 335px;
-    margin-top: 235px;
-    margin-bottom: auto;  */
 
-    margin: 0 ;
-    
+.nazvanie {
+    margin: 0;
 }
-.zagolovok{
-    
+
+.zagolovok {
+
     font-weight: 500;
     font-size: 60px;
     line-height: 73px;
@@ -48,33 +39,30 @@ box-shadow:  4px 4px  #643C19;
 
 
 }
-.place{
+
+.place {
     font-weight: 500;
     font-size: 32px;
     line-height: 39px;
     color: #F8FAFB;
 }
-.banner_info_buttons
-{
-    /*display: flex;
-    justify-content: space-between;*/
 
+.banner_info_buttons {
     width: 287px;
     height: 87px;
     padding: 0 0;
     /*font-size: 16px;
     font-weight: 500;*/
     border: 0;
-     border-radius: 0;
+    border-radius: 0;
 
 
-   /* margin: 0 ;*/
-  
+    /* margin: 0 ;*/
+
 
 }
-.btn_primary{
-    /*width: 287px;
-    height: 82 px;*/
+
+.btn_primary {
     padding: 10px 10px;
     font-weight: 700;
     font-size: 32px;
@@ -83,27 +71,29 @@ box-shadow:  4px 4px  #643C19;
     justify-content: center;
     align-items: center;
     background-color: #FFC502;
-    color:#171717;
+    color: #171717;
     text-decoration: none;
 }
-.main_idea
-{
 
-     /* margin-left: 557px;
-    margin-top: 692px;
-    margin-bottom: auto;  */
+.main_idea {
 
-  margin: 0 ;
+    /* margin-left: 557px;
+   margin-top: 692px;
+   margin-bottom: auto;  */
+
+    margin: 0;
 
 }
-.zag
-{ font-weight: 700;
+
+.zag {
+    font-weight: 700;
     font-size: 32px;
     line-height: 39px;
-    
+
     color: #FFFFFF;
 }
-.text_banner{
+
+.text_banner {
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;

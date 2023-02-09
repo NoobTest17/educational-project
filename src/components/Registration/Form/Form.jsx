@@ -24,7 +24,7 @@ const Form = () => {
         body={item.body}
       />)}
       <div className={classes.form__btn}>
-        <MyButton>Зарегестрироваться</MyButton>
+        <MyButton style={{padding: '13px 43px', fontSize: '20px'}}>Зарегистрироваться</MyButton>
       </div>
     </form>
   );

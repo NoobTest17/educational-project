@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './Header.module.css';
 import img from '../../accets/headerLogo.svg';
+import {Link} from "react-router-dom";
 
 const Header = () => {
   return (
@@ -12,10 +13,10 @@ const Header = () => {
         <div className={classes.header__menu}>
           <div className={classes.header__menu__title}>Промышленный<br/>дизайн</div>
           <ul className={classes.header__menu__list}>
-            <li>О проекте</li>
-            <li>Выставки</li>
-            <li>Организаторы<br/>фестиваля</li>
-            <li>Контакты</li>
+            <li><Link to={'/'}>О проекте</Link></li>
+            <li><Link to={'/InformationForFestivalParticipants'}>Выставки</Link></li>
+            <li><Link to={'/'}>Организаторы<br/>фестиваля</Link></li>
+            <li><Link to={'/'}>Контакты</Link></li>
           </ul>
         </div>
       </div>

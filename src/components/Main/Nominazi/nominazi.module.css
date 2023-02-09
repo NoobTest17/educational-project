@@ -1,72 +1,73 @@
 .nominazi {
-  font-family: "Inter";
-  font-style: normal;
-  background-color: #241002;
-  opacity: 0.88;
-  box-sizing: border-box;
-  border-bottom: 2px solid #534d48;
-  margin: 0;
-  display: grid;
-  
-
-}
-.transport, .it, .city  {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 300px;
+    font-family: "Inter";
+    font-style: normal;
+    /*background-color: #241002;*/
+    opacity: 0.88;
+    box-sizing: border-box;
+    border-bottom: 2px solid #534d48;
+    margin: 0;
+    display: grid;
 
 
 }
+
+.transport, .it, .city {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 300px;
+
+
+}
+
 .city {
-  margin-bottom: 112px;
+    margin-bottom: 112px;
 }
-.p1 {
-  font-weight: 400;
-font-size: 48px;
-line-height: 47px;
-color: #FFFFFF;
-cursor: pointer;
-/*text-align: center;
-margin-left: 320px;*/
 
+.p1 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 47px;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 .h1 {
-  font-weight: 600;
-  font-size: 50px;
-  line-height: 61px;
-  color: #FFFFFF;
-  /*text-align: center;*/
-  margin-left: 537px;
-  margin-top: 95px;
-  margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFFFFF;
+    margin-left: 537px;
+    margin-top: 95px;
+    margin-bottom: 30px;
 
 }
+
 .img {
-  height: 142,7px;
-width: 135px;
-left: 557px;
-border-radius: 0px;
-align-self: center;
-margin-right: 78px;
-cursor: pointer;
-/*margin-left: 557px;*/}
-.img1{
-  height: 156px;
-width: 148px;
-left: 537px;
-border-radius: 0px;
-margin-right: 70px;
-cursor: pointer;
+    height: 142.7px;
+    width: 135px;
+    left: 557px;
+    border-radius: 0px;
+    align-self: center;
+    margin-right: 78px;
+    cursor: pointer;
+}
+
+.img1 {
+    height: 156px;
+    width: 148px;
+    left: 537px;
+    border-radius: 0px;
+    margin-right: 70px;
+    cursor: pointer;
 
 }
-.img2{
-  height: 150px;
-width: 119px;
-left: 566px;
-border-radius: 0px;
-margin-right: 90px;
-cursor: pointer;
-/*margin-left: 566px;*/
+
+.img2 {
+    height: 150px;
+    width: 119px;
+    left: 566px;
+    border-radius: 0;
+    margin-right: 90px;
+    cursor: pointer;
 }

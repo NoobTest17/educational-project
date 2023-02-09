@@ -1,0 +1,33 @@
+.wrapper {
+    color: white;
+    width: 391px;
+    height: 387px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title {
+    margin-top: 10px;
+    padding: 0 0 0 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.description {
+    padding: 0 0 0 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.btn {
+    width: 200px;
+    height: 55px;
+    padding: 28px 79px 50px 112px;
+}

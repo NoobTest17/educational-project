@@ -8,7 +8,7 @@ import Place from "./Place/Place";
 const Main = () => {
   return (
     <div>
-      <Banner_info/>
+      <Banner_info />
       <InfoForPeople />
       <Nominazi />
       <DopInfo />
