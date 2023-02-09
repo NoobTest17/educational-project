@@ -3,8 +3,9 @@ import Header from "./components/Header/Header";
 import Registration from "./components/Registration/Registration";
 import InformationForVisitors from "./components/InformationForVisitors/InformationForVisitors";
 import IntroductionIndustrialDesign from "./components/IntroductionIndustrialDesign/IntroductionIndustrialDesign";
-import InformationForFestivalParticipants
-  from "./components/InformationForFestivalParticipants/InformationForFestivalParticipants";
+import InformationForFestivalParticipants from "./components/InformationForFestivalParticipants/InformationForFestivalParticipants";
+import Footer from "./components/Footer/Footer";
+import Main from "./components/Main/Main";
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
       {/*<Registration/>*/}
       {/*<InformationForVisitors/>*/}
       {/*<IntroductionIndustrialDesign/>*/}
-      <InformationForFestivalParticipants/>
+      {/*<InformationForFestivalParticipants/>*/}
+      <Main/>
+      <Footer/>
     </div>
   );
 }

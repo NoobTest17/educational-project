@@ -1,0 +1,114 @@
+.banner_info{
+    font-family: 'Inter';
+    font-style: normal;
+display: grid;
+grid-template-columns: 2fr 4fr;
+/*grid-template-areas: 
+"h h"
+" n n n n";*/
+background-color: #241002;
+opacity: .88;
+
+border-bottom: 4.5px solid #260901;
+box-shadow:  4px 4px  #643C19;
+}
+
+.img{
+  /*grid-area: h;*/
+  margin-right: 401px;
+  margin-top: 219px;
+  margin-bottom: auto;
+  margin: 0 auto; 
+  width: 253px;
+  height: 267px;}  
+
+  .info{
+    /*grid-area: n;*/
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 120px;
+    /*margin: 0 ;*/
+
+}
+.nazvanie{
+    /*margin-left: 335px;
+    margin-top: 235px;
+    margin-bottom: auto;  */
+
+    margin: 0 ;
+    
+}
+.zagolovok{
+    
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+    color: #F8FAFB;
+
+
+}
+.place{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #F8FAFB;
+}
+.banner_info_buttons
+{
+    /*display: flex;
+    justify-content: space-between;*/
+
+    width: 287px;
+    height: 87px;
+    padding: 0 0;
+    /*font-size: 16px;
+    font-weight: 500;*/
+    border: 0;
+     border-radius: 0;
+
+
+   /* margin: 0 ;*/
+  
+
+}
+.btn_primary{
+    /*width: 287px;
+    height: 82 px;*/
+    padding: 10px 10px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFC502;
+    color:#171717;
+    text-decoration: none;
+}
+.main_idea
+{
+
+     /* margin-left: 557px;
+    margin-top: 692px;
+    margin-bottom: auto;  */
+
+  margin: 0 ;
+
+}
+.zag
+{ font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    
+    color: #FFFFFF;
+}
+.text_banner{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+
+
