@@ -1,45 +1,153 @@
-.place {
+@media screen and (max-width: 2000px) {
+  .place {
     font-family: "Inter";
     font-style: normal;
     display: grid;
     grid-template-columns: 2fr 4fr;
+    /*grid-template-areas: 
+"h h"
+ /* Отступы между колонками
+  column-gap: 13px; */
+
     opacity: 0.88;
-}
-
-.img {
+  }
+  .img {
+    /*grid-area: h;
+  
+   margin-right: 13px;
+  margin-left: 0px;
+  margin-top: 208px;
+  margin-bottom: 219px;*/
     margin: auto;
-}
-
-.img1 {
+  }
+  .img1 {
     width: 380px;
     height: 300px;
-}
-
-.info {
+  }
+  .info {
     color: #ffffff;
     margin-top: 218px;
     margin-bottom: 211px;
-}
-
-.h1 {
+  }
+  .h1 {
     font-weight: 700;
     font-size: 48px;
     line-height: 79.02%;
     margin-bottom: 10px;
-}
-
-.p1 {
+  }
+  .p1 {
     font-weight: 500;
     font-size: 32px;
     line-height: 79.02%;
-}
-
-.p2 {
+  }
+  .p2 {
     font-weight: 400;
     font-size: 32px;
     line-height: 39px;
-}
-
-.p {
+  }
+  .p {
     margin-top: 28px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .place {
+    font-family: "Inter";
+    font-style: normal;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    /*grid-template-areas: 
+  "h h"
+   /* Отступы между колонками
+    column-gap: 13px; */
+
+    opacity: 0.88;
+  }
+  .img {
+    /*grid-area: h;
+    
+     margin-right: 13px;
+    margin-left: 0px;
+    margin-top: 208px;
+    margin-bottom: 219px;*/
+    margin: auto;
+  }
+  .img1 {
+    width: 299px;
+    height: 248px;
+  }
+  .info {
+    color: #ffffff;
+    margin-top: 120px;
+    margin-bottom: 171px;
+  }
+  .h1 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    margin-bottom: 10px;
+  }
+  .p1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .p2 {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+  }
+  .p {
+    margin-top: 28px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .place {
+    font-family: "Inter";
+    font-style: normal;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    /*grid-template-areas: 
+  "h h"
+   /* Отступы между колонками
+    column-gap: 13px; */
+
+    opacity: 0.88;
+  }
+  .img {
+    /*grid-area: h;
+    
+     margin-right: 13px;
+    margin-left: 0px;
+    margin-top: 208px;
+    margin-bottom: 219px;*/
+    margin: auto;
+  }
+  .img1 {
+    width: 190px;
+    height: 144px;
+  }
+  .info {
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 85px;
+  }
+  .h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .p1 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .p2 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .p {
+    margin-top: 28px;
+  }
 }

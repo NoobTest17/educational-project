@@ -13,17 +13,19 @@ const InfoForPeople = () => {
             <PolInfo
               title={<span>Информация для<br/> посетителей<br/> фестиваля</span>}
               description={<span>Откройте для себя новейшие<br/> продукты, технологии и<br/> решения</span>}
+              link="InformationForVisitors"
             />
             <PolInfo
               title={<span>Информация для<br/> участников<br/> фестиваля</span>}
               description={<span>Общайтесь с инженерами,<br/> дизайнерами и другими людьми</span>}
+              link="InformationForFestivalParticipants"
             />
           </div>
           <img src={Bk} alt=""/>
         </div>
 
         <div className={s.info__down}>
-          <Education/>
+          <Education link="/IntroductionIndustrialDesign"/>
         </div>
       </div>
     </div>

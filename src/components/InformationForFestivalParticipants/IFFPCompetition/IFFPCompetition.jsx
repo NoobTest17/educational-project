@@ -16,7 +16,7 @@ const IffpCompetition = () => {
           <div className={classes.IFFPC__content__left}>
             <img src={people} alt=""/>
             <div className={classes.IFFPC__content__left__btn}>
-              <MyButton>Регистрация</MyButton>
+              <MyButton link="/Registration">Регистрация</MyButton>
             </div>
           </div>
           <div>

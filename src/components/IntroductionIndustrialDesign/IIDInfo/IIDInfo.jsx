@@ -21,11 +21,14 @@ const IidInfo = () => {
             производителей
           </p>
           <div className={classes.IID__content__btn}>
-            <MyButton style={{
-              fontSize: '32px',
-              fontFamily: 'Inter',
-              fontWeight: '700'
-            }}>Посетить</MyButton>
+            <MyButton
+              style={{
+                fontSize: '32px',
+                fontFamily: 'Inter',
+                fontWeight: '700'
+              }}
+              link="/Registration"
+            >Посетить</MyButton>
           </div>
         </div>
       </div>

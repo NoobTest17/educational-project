@@ -3,7 +3,7 @@ import classes from './PolInfo.module.css';
 import MyButton from "../../../UI/button/MyButton";
 import background from "../../../../accets/Info.png";
 
-const PolInfo = ({title, description}) => {
+const PolInfo = ({title, description, link}) => {
   return (
     <div style={{backgroundImage: `url("${background}")`}} className={classes.wrapper}>
       <div className={classes.title}>
@@ -15,7 +15,7 @@ const PolInfo = ({title, description}) => {
       <div className={classes.btn}>
         <MyButton
           style={{fontSize: '28px', color: "black", padding: '13px 10%'}}
-          link={'/InformationForVisitors'}
+          link={link}
         >Подробнее</MyButton>
       </div>
     </div>

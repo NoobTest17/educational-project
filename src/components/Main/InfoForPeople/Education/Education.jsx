@@ -4,7 +4,7 @@ import fon_E from "../../../../accets/LongEducation.png";
 import MyButton from "../../../UI/button/MyButton";
 import background from "../../../../accets/bigFon.png";
 
-const Education = () => {
+const Education = ({link}) => {
   return (
     <div className={classes.wrapper}>
       <div
@@ -21,7 +21,10 @@ const Education = () => {
               в специализированных <br/>образовательных центрах </p>
           </div>
           <div className={classes.content__btn}>
-            <MyButton style={{fontSize: '28px', color: "black", padding: '13px 10%'}}>Подробнее</MyButton>
+            <MyButton
+              style={{fontSize: '28px', color: "black", padding: '13px 10%'}}
+              link={link}
+            >Подробнее</MyButton>
           </div>
         </div>
       </div>

@@ -14,11 +14,14 @@ const TopicsUnderConsideration = () => {
           <p>«Роль дизайна в формировании городской среды»</p>
           <p>«Дизайн - как образ жизни»</p>
           <div className={classes.TUC__content__btn}>
-            <MyButton style={{
-              fontSize: '32px',
-              fontFamily: 'Inter',
-              fontWeight: '700'
-            }}>Посетить</MyButton>
+            <MyButton
+              style={{
+                fontSize: '32px',
+                fontFamily: 'Inter',
+                fontWeight: '700'
+              }}
+              link="/Registration"
+            >Посетить</MyButton>
           </div>
         </div>
         <img src={book} alt=""/>

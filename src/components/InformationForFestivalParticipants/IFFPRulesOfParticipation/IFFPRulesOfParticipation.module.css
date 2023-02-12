@@ -1,8 +1,7 @@
 .wrapper {
     width: 100%;
     height: 775px;
-    /*border-bottom: 4.5px solid #260901;*/
-    /*box-shadow: 0 4px 4px rgba(100, 60, 25, 0.65);*/
+    margin-bottom: 30px;
 }
 
 .IFFPROP {
@@ -11,9 +10,7 @@
     margin: 47px auto 0 auto;
     display: flex;
     flex-direction: column;
-    /*justify-content: space-between;*/
     color: white;
-    /*background-color: #544540;*/
 }
 
 .IFFPROP__title p{
@@ -27,7 +24,6 @@
 
 .IFFPROP__content {
     height: 557px;
-    /*background-color: teal;*/
     display: flex;
     justify-content: space-between;
     align-items: flex-start;

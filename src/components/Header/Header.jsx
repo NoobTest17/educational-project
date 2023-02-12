@@ -15,8 +15,8 @@ const Header = () => {
           <ul className={classes.header__menu__list}>
             <li><Link to={'/'}>О проекте</Link></li>
             <li><Link to={'/InformationForFestivalParticipants'}>Выставки</Link></li>
-            <li><Link to={'/'}>Организаторы<br/>фестиваля</Link></li>
-            <li><Link to={'/'}>Контакты</Link></li>
+            <li><Link to={'/error'}>Организаторы<br/>фестиваля</Link></li>
+            <li><Link to={'/error'}>Контакты</Link></li>
           </ul>
         </div>
       </div>

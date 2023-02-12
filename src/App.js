@@ -4,8 +4,10 @@ import InformationForVisitors from "./components/InformationForVisitors/Informat
 import IntroductionIndustrialDesign from "./components/IntroductionIndustrialDesign/IntroductionIndustrialDesign";
 import InformationForFestivalParticipants from "./components/InformationForFestivalParticipants/InformationForFestivalParticipants";
 import Main from "./components/Main/Main";
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Layout from "./components/Layout";
+import Error from "./components/Error/Error";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
             <Route path={'IntroductionIndustrialDesign'} element={<IntroductionIndustrialDesign/>}/>
             <Route path={'InformationForVisitors'} element={<InformationForVisitors/>}/>
             <Route path={'Registration'} element={<Registration/>}/>
+            <Route path={'*'} element={<Error/>}/>
           </Route>
         </Routes>
       </Router>
