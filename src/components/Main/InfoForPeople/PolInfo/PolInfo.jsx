@@ -13,7 +13,10 @@ const PolInfo = ({title, description}) => {
         <p>{description}</p>
       </div>
       <div className={classes.btn}>
-        <MyButton style={{fontSize: '28px', color: "black", padding: '13px 10%'}}>Подробнее</MyButton>
+        <MyButton
+          style={{fontSize: '28px', color: "black", padding: '13px 10%'}}
+          link={'/InformationForVisitors'}
+        >Подробнее</MyButton>
       </div>
     </div>
   );
